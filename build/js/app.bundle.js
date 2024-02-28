@@ -3173,21 +3173,9 @@ eval("__webpack_require__(/*! ../modules/web.timers */ \"./node_modules/core-js/
 /*!**************************!*\
   !*** ./src/app/index.js ***!
   \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.css */ \"./src/app/styles/index.css\");\n\nalert(\"Enlazado\");\n\n//# sourceURL=webpack://webpack-babel/./src/app/index.js?");
-
-/***/ }),
-
-/***/ "./src/app/styles/index.css":
-/*!**********************************!*\
-  !*** ./src/app/styles/index.css ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-babel/./src/app/styles/index.css?");
+eval("alert(\"Enlazado\");\n\n//# sourceURL=webpack://webpack-babel/./src/app/index.js?");
 
 /***/ })
 
@@ -3216,18 +3204,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
 /******/ 	
 /************************************************************************/
 /******/ 	
