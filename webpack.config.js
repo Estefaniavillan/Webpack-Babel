@@ -6,13 +6,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   mode: "none",
   entry: {
-    app: ["@babel/polyfill", "./src/app/index.js"],
+    app: ["@babel/polyfill", "./src/app/scripts/index.js"], //punto de entrada
     // home: [],
     // contact: [],
 },
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "js/app.bundle.js",
+    filename: "js/app.bundle.js", //punto de salida
   },
   devServer: {
     port: 5050,
