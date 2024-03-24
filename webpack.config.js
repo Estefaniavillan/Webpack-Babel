@@ -7,9 +7,7 @@ module.exports = {
   mode: "none",
   entry: {
     app: ["@babel/polyfill", "./src/app/index.js"],
-    // home: [],
-    // contact: [],
-},
+  },
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "js/app.bundle.js",
